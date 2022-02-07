@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuHome">
+
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="com.beckytech.galatoofibarumsaa.HomeFragment"
+        android:label="Galataafi Barumsaa Amantaa"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuGalataMariam"
+        android:name="com.beckytech.galatoofibarumsaa.galatamaariyaam.GalataMaariyaamFragment"
+        android:label="@string/galata_maariyaam"
+        tools:layout="@layout/fragment_galata_maariyaam" />
+    <fragment
+        android:id="@+id/menuGalataGooftaa"
+        android:name="com.beckytech.galatoofibarumsaa.galatagooftaa.GalataGooftaaFragment"
+        android:label="@string/galata_gooftaa"
+        tools:layout="@layout/fragment_galata_gooftaa" />
+    <fragment
+        android:id="@+id/menuDirsaane"
+        android:name="com.beckytech.galatoofibarumsaa.dirsaane.DirsaaneFragment"
+        android:label="@string/dirsaane_ergamoota"
+        tools:layout="@layout/fragment_dirsaane" />
+    <fragment
+        android:id="@+id/menuErgamoota"
+        android:name="com.beckytech.galatoofibarumsaa.ergamoota.ErgamootaFragment"
+        android:label="@string/ergamoota_qulqulluu"
+        tools:layout="@layout/activity_ergamoota"/>
+    <fragment
+        android:id="@+id/menuHibuat"
+        android:name="com.beckytech.galatoofibarumsaa.hibuat.HibuatFragment"
+        android:label="@string/barumsaa_hibuat"
+        tools:layout="@layout/fragment_hibuat" />
+    <fragment
+        android:id="@+id/menuGalataLixonni"
+        android:name="com.beckytech.galatoofibarumsaa.lixoonii.LixoonniiFragment"
+        android:label="@string/galata_lixonnii"
+        tools:layout="@layout/fragment_lixoonnii" />
+    <fragment
+        android:id="@+id/menuGalataMalkaa"
+        android:name="com.beckytech.galatoofibarumsaa.malkaa.MalkaaFragment"
+        android:label="@string/kadhannaa_addaa_malkaa"
+        tools:layout="@layout/fragment_malkaa" />
+    <fragment
+        android:id="@+id/menuRaajotaGurguddoo"
+        android:name="com.beckytech.galatoofibarumsaa.raajotagurguddoo.RaajotaGurguddooFragment"
+        android:label="@string/raajota_gurguddoo"
+        tools:layout="@layout/fragment_raajota_gurguddoo" />
+    <fragment
+        android:id="@+id/menuRaajotaXixiqqoo"
+        android:name="com.beckytech.galatoofibarumsaa.raajotaxixiqqoo.RaajotaXixiqqooFragment"
+        android:label="@string/raajota_xixiqqoo"
+        tools:layout="@layout/fragment_raajota_xixiqqoo" />
+    <fragment
+        android:id="@+id/menuSeeraaLaphee"
+        android:name="com.beckytech.galatoofibarumsaa.seeralaphee.SeeraLapheeFragment"
+        android:label="@string/bara_seeraa_laphee"
+        tools:layout="@layout/fragment_seera_laphee" />
+    <fragment
+        android:id="@+id/menuSeeraaOoritii"
+        android:name="com.beckytech.galatoofibarumsaa.seeraooritii.SeeraaOoritiiFragment"
+        android:label="@string/bara_seeraa_ooritii"
+        tools:layout="@layout/fragment_seeraa_ooritii" />
+    <fragment
+        android:id="@+id/menuKadhannaaWaadaa"
+        android:name="com.beckytech.galatoofibarumsaa.waadaa.WaadaaFragment"
+        android:label="@string/kadhannaa_waadaa"
+        tools:layout="@layout/fragment_waadaa" />
+    <fragment
+        android:id="@+id/menuKadhannaaBarbaachisaa"
+        android:name="com.beckytech.galatoofibarumsaa.kadhannaabarbaachiso.KadhannaaBarbaachisoFragment"
+        android:label="@string/kadhannaa_barbaachisoo"
+        tools:layout="@layout/fragment_kadhannaa_barbaachiso" />
+    <fragment
+        android:id="@+id/menuFaaruuDaawit"
+        android:name="com.beckytech.galatoofibarumsaa.kadhannaabarbaachiso.FaaruuDaawitFragment"
+        android:label="@string/faaruu_daawit"
+        tools:layout="@layout/fragment_faaruu_daawit" />
+</navigation>

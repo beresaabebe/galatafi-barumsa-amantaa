@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Galatoofi barumsaa Amantaa</string>
+    <string name="galata_maariyaam">Galata Maariyaam</string>
+    <string name="kadhannaa_barbaachisoo">Kadhannaa Barbaachisoo</string>
+    <string name="kadhannaa_addaa_malkaa">Kadhannaa Addaa - Malkaa</string>
+    <string name="dirsaane_ergamoota">Dirsaane Ergamoota</string>
+    <string name="galata_lixonnii">Galata Lixonnii</string>
+    <string name="galata_gooftaa">Galata Gooftaa</string>
+    <string name="galmee_galataa">Galmee Galataa</string>
+    <string name="exit">Exit</string>
+    <string name="share">Share</string>
+    <string name="give_us_5_star">Give us 5 star</string>
+    <string name="about_us">About us</string>
+    <string name="faarfannaa">Faarfannaa</string>
+    <string name="raajota_xixiqqoo">Raajota Xixiqqoo</string>
+    <string name="raajota_gurguddoo">Raajota Gurguddoo</string>
+    <string name="raajota_qulqulluu">Raajota Qulqulluu</string>
+    <string name="bara_seeraa_ooritii">Bara Seeraa Ooritii</string>
+    <string name="bara_seeraa_laphee">Bara Seeraa Laphee</string>
+    <string name="ergamoota_qulqulluu">Ergamoota Qulqulluu</string>
+    <string name="abboota_kaakuu_moofaa">Abboota Kaakuu Moofaa</string>
+    <string name="barumsaa_hibuat">Barumsaa Hibuat</string>
+    <string name="galmee_barumsaa">Galmee barumsaa</string>
+    <string name="contact_info">Contact info</string>
+    <string name="others">Others</string>
+    <string name="homepage">HomePage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_dirsaane">DirsaaneActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="kadhannaa_waadaa">Kadhannaa Waadaa</string>
+    <string name="faaruu_daawit">Faaruu Daawit</string>
+    <string name="other_site">Other site</string>
+</resources>

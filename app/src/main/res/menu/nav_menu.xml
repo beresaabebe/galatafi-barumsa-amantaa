@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="@string/homepage"/>
+    <item
+        android:title="@string/galmee_galataa">
+        <menu>
+            <item
+                android:id="@+id/menuGalataMariam"
+                android:icon="@drawable/mariam"
+                android:title="@string/galata_maariyaam"/>
+            <item
+                android:id="@+id/menuGalataGooftaa"
+                android:icon="@drawable/gooftaa"
+                android:title="@string/galata_gooftaa"/>
+            <item
+                android:id="@+id/menuGalataLixonni"
+                android:icon="@drawable/lixoni"
+                android:title="@string/galata_lixonnii"/>
+            <item
+                android:id="@+id/menuGalataMalkaa"
+                android:icon="@drawable/logo"
+                android:title="@string/kadhannaa_addaa_malkaa"/>
+            <item
+                android:id="@+id/menuDirsaane"
+                android:icon="@drawable/ergamoota"
+                android:title="@string/dirsaane_ergamoota"/>
+            <item
+                android:id="@+id/menuKadhannaaWaadaa"
+                android:icon="@drawable/mariam"
+                android:title="@string/kadhannaa_waadaa"/>
+            <item
+                android:id="@+id/menuKadhannaaBarbaachisaa"
+                android:icon="@drawable/logo"
+                android:title="@string/kadhannaa_barbaachisoo"/>
+            <item
+                android:id="@+id/menuFaaruuDaawit"
+                android:icon="@drawable/ergamoota"
+                android:title="@string/faaruu_daawit"/>
+
+        </menu>
+        </item>
+    <item
+        android:title="@string/galmee_barumsaa">
+        <menu>
+            <item
+                android:id="@+id/menuErgamoota"
+                android:icon="@drawable/ergamoota"
+                android:title="@string/ergamoota_qulqulluu"/>
+            <item
+                android:id="@+id/menuHibuat"
+                android:icon="@drawable/oriti"
+                android:title="@string/barumsaa_hibuat"/>
+        </menu>
+    </item>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="@string/abboota_kaakuu_moofaa">
+            <menu>
+                <item
+                    android:id="@+id/menuSeeraaLaphee"
+                    android:icon="@drawable/laphee"
+                    android:title="@string/bara_seeraa_laphee"/>
+                <item
+                    android:id="@+id/menuSeeraaOoritii"
+                    android:icon="@drawable/oriti"
+                    android:title="@string/bara_seeraa_ooritii"/>
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:title="@string/raajota_qulqulluu">
+        <menu>
+            <item
+                android:id="@+id/menuRaajotaGurguddoo"
+                android:icon="@drawable/ergamoota"
+                android:title="@string/raajota_gurguddoo"/>
+            <item
+                android:id="@+id/menuRaajotaXixiqqoo"
+                android:icon="@drawable/ergamoota"
+                android:title="@string/raajota_xixiqqoo"/>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/others">
+            <menu>
+                <item
+                    android:id="@+id/menuFaarfannaa"
+                    android:icon="@drawable/ic_music_rect"
+                    android:title="@string/faarfannaa"/>
+                <item android:title="@string/about_us"
+                    android:icon="@drawable/ic_info"
+                    android:id="@+id/menuAboutUs"/>
+                <item android:title="@string/other_site"
+                    android:icon="@drawable/ic_other_site"
+                    android:id="@+id/menuOtherSite"/>
+                <item android:id="@+id/rating_app"
+                    android:icon="@drawable/ic_star"
+                    android:title="@string/give_us_5_star"/>
+                <item android:id="@+id/menuShareApp"
+                    android:icon="@drawable/ic_share_app"
+                    android:title="@string/share"/>
+                <item android:id="@+id/menuExitApp"
+                    android:icon="@drawable/ic_close_app"
+                    android:title="@string/exit"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title=""
+        android:enabled="false"/>
+    <item android:title=""
+        android:enabled="false"/>
+    <item android:title=""
+        android:enabled="false"/>
+</menu>

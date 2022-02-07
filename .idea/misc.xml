@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/drawable/bg_home.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/drawable/bgimage.xml" value="0.2364102564102564" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/drawable/circular.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/drawable/image.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/activity_about.xml" value="0.18" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/activity_contact_info.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/activity_dirsaane.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/activity_ergamoota.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/drawer_navigation_header.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_abdiyyuu.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_abeel.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_abraham.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_addaam.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_akka_arjumaa_kee.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_amoos.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_aster.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_baha_ifaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_daniel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_afiniin.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_faanuel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_gabriel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_mikaael.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_raaguel.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_rufaael.xml" value="0.10643115942028986" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_saquel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_dirsaane_waldaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_eergamoota.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ergamaa_faanuel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ergamaa_gabrieel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ergamaa_mikaeel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ergamaa_raaguel.xml" value="0.209375" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ergamoota.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ermias.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_faaruu100.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_faaruu135.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_faaruu24.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_faaruu50.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_faaruu90.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_faaruu_daawit.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_facebook.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_gooftaa.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_ergamoota.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_jimaata.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_kamisaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_kibxataa.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_roobii.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_sanbataa_guddaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_sanbataa_xiqqaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_wiixata.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_galata_maariyaam_yeroo_hundaa.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_dilbataa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_jimaata.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_kamisaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_kibxataa.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_roobii.xml" value="0.10643115942028986" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_sanbataa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_wiixataa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_gooftaa_yeroo.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_haagee.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_heenok.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_hibuat.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_hibuat_lama.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_hibuat_tokkoo.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_hisqiel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_home.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_home_listview.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_hoosee.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_inbaaqom.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_isayas.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_iyyoob.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_kadhannaa_barbaachiso.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_kiruubel.xml" value="0.10643115942028986" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixonnii_dilbataa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixonnii_jimaata.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixoonni_kamisaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixoonnii.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixoonnii_kibxataa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixoonnii_roobii.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixoonnii_sanbataa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_lixoonnii_wiixata.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_loox.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_maaloo_nuu_fayyisii.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_malkaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_malkaa_edoom.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_malkaa_maariyaam.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_malkaaa_iyeesuus.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_melkeseedeeq.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_mikaael.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_milkiyas.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_musee.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_naabutee.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_nooh.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_raajota_gurguddoo.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_raajota_xixiqqoo.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_rufaael.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_ruut.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_saaraa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_seera_laphee.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_seeraa_ooritii.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_sofooniyaas.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_soosinnaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_surafel.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_urael.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_waadaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_waadaa_ganamaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_waadaa_halkaan_walakkaa.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_waadaa_yeroo_sadannuu.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yaa_abbaa_keenya.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yaiqob.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yisihaaq.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yoodit.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yoonaas.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yoosaad.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_yooseef.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_youtube.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/layout/fragment_zakarias.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/menu/main.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/rooba/AndroidStudioProjects/Galatoofibarumsaa/app/src/main/res/menu/nav_menu.xml" value="0.22395833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
