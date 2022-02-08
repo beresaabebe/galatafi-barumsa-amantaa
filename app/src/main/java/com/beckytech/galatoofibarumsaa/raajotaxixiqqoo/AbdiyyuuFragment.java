@@ -16,8 +16,13 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import com.beckytech.galatoofibarumsaa.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class AbdiyyuuFragment extends Fragment {
+
+    private AdView mAdView;
+
     @RequiresApi(api = Build.VERSION_CODES.O)
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -36,6 +41,11 @@ public class AbdiyyuuFragment extends Fragment {
                 webView.loadUrl("file:///android_asset/error.html");
             }
         });
+
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         return view;
     }
 }
