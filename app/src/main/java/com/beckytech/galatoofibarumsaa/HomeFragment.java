@@ -4,9 +4,6 @@ import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -18,9 +15,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -48,7 +43,6 @@ public class HomeFragment extends Fragment {
 
     View view;
     WebView webView;
-    ProgressDialog progressDialog;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -58,15 +52,10 @@ public class HomeFragment extends Fragment {
         ConnectivityManager cm = (ConnectivityManager)getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = cm.getActiveNetworkInfo();
 
-
         if (networkInfo != null && networkInfo.isConnected() && networkInfo.isAvailable() && !networkInfo.isFailover()) {
             view = inflater.inflate(R.layout.fragment_home, container, false);
 
             SwipeRefreshLayout swipeRefreshLayout = view.findViewById(R.id.swipeRefreshLayout);
-            ProgressBar progressBar = view.findViewById(R.id.progressBar);
-
-            progressBar.setMax(100);
-            progressBar.setProgressTintList(ColorStateList.valueOf(Color.RED));
 
             webView = view.findViewById(R.id.webViw_HomePage);
             webView.loadUrl("https://afanoromobatch.wordpress.com");
@@ -76,22 +65,9 @@ public class HomeFragment extends Fragment {
             webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
 
             webView.setWebViewClient(new WebViewClient() {
-
-                @Override
-                public void onPageStarted(WebView view, String url, Bitmap favicon) {
-                    if (progressDialog == null) {
-                        progressDialog = new ProgressDialog(getActivity(), R.style.AppCompatAlertDialogStyle);
-                        progressDialog.setMessage("Loading please wait...");
-                        progressDialog.show();
-                    }
-                }
                 @Override
                 public void onPageFinished(WebView view, String url) {
                     swipeRefreshLayout.setRefreshing(false);
-                    if (progressDialog.isShowing()) {
-                        progressDialog.dismiss();
-                        progressDialog = null;
-                    }
                 }
             });
 
@@ -105,10 +81,7 @@ public class HomeFragment extends Fragment {
                 return false;
             });
 
-            swipeRefreshLayout.setOnRefreshListener(() -> {
-                webView.reload();
-                progressDialog.dismiss();
-            });
+            swipeRefreshLayout.setOnRefreshListener(() -> webView.reload());
         }
         else {
             view = inflater.inflate(R.layout.fragment_home_listview, container, false);

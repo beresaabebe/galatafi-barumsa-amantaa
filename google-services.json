@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "213941821967",
+    "project_id": "galataafi-barumsaa-amantaa",
+    "storage_bucket": "galataafi-barumsaa-amantaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213941821967:android:212357802739032dc1b97a",
+        "android_client_info": {
+          "package_name": "com.beckytech.galatoofibarumsaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213941821967-or1sove3v4pajk7tr9ar3qv142mvlees.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beckytech.galatoofibarumsaa",
+            "certificate_hash": "c9ca585d0166d5af7a37853420286605c8f2c6a7"
+          }
+        },
+        {
+          "client_id": "213941821967-qbfpoe09ir5obmhhfc07olctjfl5ma9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqrOvEAhw_H75yd9QYf0HtvF7w_wkfdFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213941821967-qbfpoe09ir5obmhhfc07olctjfl5ma9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

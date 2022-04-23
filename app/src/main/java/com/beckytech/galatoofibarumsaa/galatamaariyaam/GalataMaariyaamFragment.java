@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.beckytech.galatoofibarumsaa.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.tabs.TabLayout;
 
 public class GalataMaariyaamFragment extends Fragment {
@@ -19,10 +21,18 @@ public class GalataMaariyaamFragment extends Fragment {
     ViewPager2 viewPager2;
     FragmentAdapter adapter;
 
+    private static final String TAG = "FaaruuDaawitActivity";
+
+    private AdView mAdView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_galata_maariyaam, container, false);
+
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         tabLayout = view.findViewById(R.id.tab_galataMaariyaam);
         viewPager2 = view.findViewById(R.id.viewPager_galataMaariyaam);

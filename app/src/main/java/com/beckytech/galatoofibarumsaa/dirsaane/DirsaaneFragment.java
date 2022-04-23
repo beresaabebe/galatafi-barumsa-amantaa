@@ -10,6 +10,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.beckytech.galatoofibarumsaa.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.tabs.TabLayout;
 
 public class DirsaaneFragment extends Fragment {
@@ -18,10 +20,18 @@ public class DirsaaneFragment extends Fragment {
     ViewPager2 viewPager2;
     FragmentAdapter adapter;
 
+    private static final String TAG = "FaaruuDaawitActivity";
+
+    private AdView mAdView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dirsaane, container, false);
+
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         tabLayout = view.findViewById(R.id.tabLayout);
         viewPager2 = view.findViewById(R.id.viewPager);

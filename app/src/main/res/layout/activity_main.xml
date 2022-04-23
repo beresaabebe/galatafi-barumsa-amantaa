@@ -25,8 +25,8 @@
 
             <ImageView
                 android:id="@+id/imageMenu"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/ic_menu"
                 app:tint="@color/white"/>

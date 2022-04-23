@@ -24,6 +24,7 @@ import androidx.navigation.ui.NavigationUI;
 import com.beckytech.galatoofibarumsaa.contactinfo.ContactInfoActivity;
 import com.beckytech.galatoofibarumsaa.dirsaane.DirsaaneActivity;
 import com.beckytech.galatoofibarumsaa.ergamoota.ErgamootaActivity;
+import com.beckytech.galatoofibarumsaa.faarsaa.FaarfannaaActivity;
 import com.beckytech.galatoofibarumsaa.galatagooftaa.GalataGooftaaActivity;
 import com.beckytech.galatoofibarumsaa.galatamaariyaam.GalataMaariyaam;
 import com.beckytech.galatoofibarumsaa.hibuat.HibuatActivity;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setItemIconTintList(null);
 
         NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
-        NavigationUI.setupWithNavController(navigationView,navController);
+        NavigationUI.setupWithNavController(navigationView, navController);
 
         final TextView textTitle = findViewById(R.id.textTitle);
 
@@ -119,26 +120,52 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ContactInfoActivity.class));
             }
 
+            if (item.getItemId() == R.id.menuFaarfannaa) {
+                startActivity(new Intent(this, FaarfannaaActivity.class));
+            }
+
             if (item.getItemId() == R.id.menuAboutUs) {
                 startActivity(new Intent(this, AboutActivity.class));
+            }
+
+            if(item.getItemId() == R.id.menuShareApp) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_SUBJECT," Galatoofi Barumsaa Amantaa");
+                String message = "\n Yeroon app kana sif erguu baay'een gammada, Waaqayyonis nan galateeffaadha. Appn kun sinis akkumaa koo si gargaraa jedhe waanan yaadeef sif erguuf filaadherraa.\n" +
+                        "Atillee nama biroo qoodi!";
+                message = message + "https://play.google.com/store/apps/details?id=com.beckytech.galatoofibarumsaa";
+                intent.putExtra(Intent.EXTRA_TEXT, message);
+                startActivity(intent);
+            }
+
+            if (item.getItemId() == R.id.rating_app) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.beckytech.galatoofibarumsaa"));
+                intent.setPackage("com.android.vending");
+                startActivity(intent);
             }
 
             if (item.getItemId() == R.id.menuExitApp) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setMessage("Cufu barbada?");
                 builder.setTitle("Cufi");
-                builder.setIcon(R.drawable.ic_close_app);
-                builder.setPositiveButton("Eyyeen",(dialogInterface, i) -> {
+//                builder.setIcon(R.drawable.ic_close_app);
+                builder.setPositiveButton("Eyyeen", (dialogInterface, i) -> {
                     finishAffinity();
                     finish();
                 });
-                builder.setNegativeButton("Lakki",(dialogInterface, i) -> dialogInterface.dismiss());
+                builder.setNegativeButton("Lakki", (dialogInterface, i) -> dialogInterface.dismiss());
                 builder.show();
             }
 
             return true;
         });
 
+        // ATTENTION: This was auto-generated to handle app links.
+        Intent appLinkIntent = getIntent();
+        String appLinkAction = appLinkIntent.getAction();
+        Uri appLinkData = appLinkIntent.getData();
     }
 
     @Override

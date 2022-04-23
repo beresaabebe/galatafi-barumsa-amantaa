@@ -7,6 +7,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.beckytech.galatoofibarumsaa.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.tabs.TabLayout;
 
 public class ContactInfoActivity extends AppCompatActivity {
@@ -15,10 +17,18 @@ public class ContactInfoActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager2 viewPager2;
 
+    private static final String TAG = "FaaruuDaawitActivity";
+
+    private AdView mAdView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_info);
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         FragmentManager fm = getSupportFragmentManager();
 

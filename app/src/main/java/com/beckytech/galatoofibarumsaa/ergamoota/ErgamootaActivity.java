@@ -8,6 +8,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import com.beckytech.galatoofibarumsaa.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.tabs.TabLayout;
 
 public class ErgamootaActivity extends AppCompatActivity {
@@ -16,10 +18,18 @@ public class ErgamootaActivity extends AppCompatActivity {
     ViewPager2 viewPager2;
     com.beckytech.galatoofibarumsaa.ergamoota.FragmentAdapter adapter;
 
+    private static final String TAG = "FaaruuDaawitActivity";
+
+    private AdView mAdView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_ergamoota);
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.purple_700)));
 

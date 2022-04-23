@@ -9,6 +9,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.beckytech.galatoofibarumsaa.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.tabs.TabLayout;
 
 public class GalataMaariyaam extends AppCompatActivity {
@@ -17,10 +19,19 @@ public class GalataMaariyaam extends AppCompatActivity {
     ViewPager2 viewPager2;
     FragmentAdapter adapter;
 
+    private static final String TAG = "FaaruuDaawitActivity";
+
+    private AdView mAdView;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_galata_maariyaam);
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.purple_700)));
 
         tabLayout = findViewById(R.id.tab_galataMaariyaam);
