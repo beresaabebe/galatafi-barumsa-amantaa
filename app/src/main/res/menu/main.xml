@@ -4,14 +4,14 @@
     <group
         android:checkableBehavior="single">
         <item
-            android:id="@+id/action_settings"
+            android:id="@+id/menuShareApp"
             android:orderInCategory="100"
-            android:title="@string/settings"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/share"
             app:showAsAction="ifRoom" />
         <item
-            android:id="@+id/menu_about_us"
-            android:title="@string/about_us"
-            app:showAsAction="collapseActionView"
-            android:icon="@android:drawable/stat_notify_more"/>
+            android:id="@+id/menuExitApp"
+            android:title="@string/exit"
+            app:showAsAction="never"/>
     </group>
 </menu>

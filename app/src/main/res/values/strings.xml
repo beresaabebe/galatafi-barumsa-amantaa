@@ -35,7 +35,8 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-8504401574247581/8051581927</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8504401574247581/1574854201</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8504401574247581/4252743612</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
@@ -49,4 +50,7 @@
     Facebook Join gochuu ni dandeessu. \n\n https://facebook.com/orthodoxmezmurofficial \n\n
     Phone: +251917361283 \n\n Website: https://yoosaad.com \n\n
     SBOO: https://afanoromobatch.wordpress.com \n\n</string>
+
+    <string name="open_drawer">Open Drawer layout</string>
+    <string name="close_drawer">Close Drawer layout</string>
 </resources>

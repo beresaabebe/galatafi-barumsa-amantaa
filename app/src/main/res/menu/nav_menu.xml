@@ -9,35 +9,35 @@
         <menu>
             <item
                 android:id="@+id/menuGalataMariam"
-                android:icon="@drawable/mariam"
+                android:icon="@drawable/ic_gm"
                 android:title="@string/galata_maariyaam"/>
             <item
                 android:id="@+id/menuGalataGooftaa"
-                android:icon="@drawable/gooftaa"
+                android:icon="@drawable/ic_gg"
                 android:title="@string/galata_gooftaa"/>
             <item
                 android:id="@+id/menuGalataLixonni"
-                android:icon="@drawable/lixoni"
+                android:icon="@drawable/ic_lixon"
                 android:title="@string/galata_lixonnii"/>
             <item
                 android:id="@+id/menuGalataMalkaa"
-                android:icon="@drawable/logo"
+                android:icon="@drawable/ic_malkaa"
                 android:title="@string/kadhannaa_addaa_malkaa"/>
             <item
                 android:id="@+id/menuDirsaane"
-                android:icon="@drawable/ergamoota"
+                android:icon="@drawable/ic_ergamota"
                 android:title="@string/dirsaane_ergamoota"/>
             <item
                 android:id="@+id/menuKadhannaaWaadaa"
-                android:icon="@drawable/mariam"
+                android:icon="@drawable/ic_kadhannaa"
                 android:title="@string/kadhannaa_waadaa"/>
             <item
                 android:id="@+id/menuKadhannaaBarbaachisaa"
-                android:icon="@drawable/logo"
+                android:icon="@drawable/ic_waadaa"
                 android:title="@string/kadhannaa_barbaachisoo"/>
             <item
                 android:id="@+id/menuFaaruuDaawit"
-                android:icon="@drawable/ergamoota"
+                android:icon="@drawable/ic_baseline_queue_music_24"
                 android:title="@string/faaruu_daawit"/>
 
         </menu>
@@ -47,11 +47,11 @@
         <menu>
             <item
                 android:id="@+id/menuErgamoota"
-                android:icon="@drawable/ergamoota"
+                android:icon="@drawable/ic_gg"
                 android:title="@string/ergamoota_qulqulluu"/>
             <item
                 android:id="@+id/menuHibuat"
-                android:icon="@drawable/oriti"
+                android:icon="@drawable/ic_gm"
                 android:title="@string/barumsaa_hibuat"/>
         </menu>
     </item>
@@ -63,11 +63,11 @@
             <menu>
                 <item
                     android:id="@+id/menuSeeraaLaphee"
-                    android:icon="@drawable/laphee"
+                    android:icon="@drawable/ic_menu"
                     android:title="@string/bara_seeraa_laphee"/>
                 <item
                     android:id="@+id/menuSeeraaOoritii"
-                    android:icon="@drawable/oriti"
+                    android:icon="@drawable/ic_kadhannaa"
                     android:title="@string/bara_seeraa_ooritii"/>
             </menu>
         </item>
@@ -78,11 +78,11 @@
         <menu>
             <item
                 android:id="@+id/menuRaajotaGurguddoo"
-                android:icon="@drawable/ergamoota"
+                android:icon="@drawable/ic_baseline_subject_24"
                 android:title="@string/raajota_gurguddoo"/>
             <item
                 android:id="@+id/menuRaajotaXixiqqoo"
-                android:icon="@drawable/ergamoota"
+                android:icon="@drawable/ic_lixon"
                 android:title="@string/raajota_xixiqqoo"/>
         </menu>
     </item>

@@ -1,7 +1,6 @@
 package com.beckytech.galatoofibarumsaa;
 
 import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -49,112 +48,114 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        ConnectivityManager cm = (ConnectivityManager)getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo networkInfo = cm.getActiveNetworkInfo();
+        if (getContext() != null) {
+            ConnectivityManager cm = (ConnectivityManager) getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo networkInfo = cm.getActiveNetworkInfo();
 
-        if (networkInfo != null && networkInfo.isConnected() && networkInfo.isAvailable() && !networkInfo.isFailover()) {
-            view = inflater.inflate(R.layout.fragment_home, container, false);
+            if (networkInfo != null && networkInfo.isConnected() && networkInfo.isAvailable() && !networkInfo.isFailover()) {
+                view = inflater.inflate(R.layout.fragment_home, container, false);
 
-            SwipeRefreshLayout swipeRefreshLayout = view.findViewById(R.id.swipeRefreshLayout);
+                SwipeRefreshLayout swipeRefreshLayout = view.findViewById(R.id.swipeRefreshLayout);
 
-            webView = view.findViewById(R.id.webViw_HomePage);
-            webView.loadUrl("https://afanoromobatch.wordpress.com");
-            webView.setVerticalScrollBarEnabled(true);
-            webView.setHorizontalScrollBarEnabled(true);
-            webView.getSettings().setJavaScriptEnabled(true);
-            webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+                webView = view.findViewById(R.id.webViw_HomePage);
+                webView.loadUrl("https://afanoromobatch.wordpress.com");
+                webView.setVerticalScrollBarEnabled(true);
+                webView.setHorizontalScrollBarEnabled(true);
+                webView.getSettings().setJavaScriptEnabled(true);
+                webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
 
-            webView.setWebViewClient(new WebViewClient() {
-                @Override
-                public void onPageFinished(WebView view, String url) {
-                    swipeRefreshLayout.setRefreshing(false);
-                }
-            });
+                webView.setWebViewClient(new WebViewClient() {
+                    @Override
+                    public void onPageFinished(WebView view, String url) {
+                        swipeRefreshLayout.setRefreshing(false);
+                    }
+                });
 
-            webView.canGoBack();
-            webView.setOnKeyListener((view, keyCode, keyEvent) -> {
-                if (keyCode == KeyEvent.KEYCODE_BACK && keyEvent.getAction() ==
-                        MotionEvent.ACTION_UP && webView.canGoBack()) {
-                    webView.goBack();
-                    return true;
-                }
-                return false;
-            });
+                webView.canGoBack();
+                webView.setOnKeyListener((view, keyCode, keyEvent) -> {
+                    if (keyCode == KeyEvent.KEYCODE_BACK && keyEvent.getAction() ==
+                            MotionEvent.ACTION_UP && webView.canGoBack()) {
+                        webView.goBack();
+                        return true;
+                    }
+                    return false;
+                });
 
-            swipeRefreshLayout.setOnRefreshListener(() -> webView.reload());
-        }
-        else {
-            view = inflater.inflate(R.layout.fragment_home_listview, container, false);
+                swipeRefreshLayout.setOnRefreshListener(() -> webView.reload());
+            }
+            else {
+                view = inflater.inflate(R.layout.fragment_home_listview, container, false);
 
-            String[] item = {"Galata Maariyaam", "Galataa Gooftaa",
-                    "Galata Lixonii", "Galata Addaa - Malkaa",
-                    "Kadhannaa Waadaa", "Kadhannaa Barbaachisoo",
-                    "Faaruu Daawit",
-                    "Dirsaane Ergamoota", "Ergamoota Qulqulluu",
-                    "Barumsaa Hibuat", "Abboota Bara Seeraa Laphee",
-                    "Abboota Bara Seeraa Ooritii", "Raajota Gurguddoo",
-                    "Raajota Xixiqqoo"};
+                String[] item = {"Galata Maariyaam", "Galataa Gooftaa",
+                        "Galata Lixonii", "Galata Addaa - Malkaa",
+                        "Kadhannaa Waadaa", "Kadhannaa Barbaachisoo",
+                        "Faaruu Daawit",
+                        "Dirsaane Ergamoota", "Ergamoota Qulqulluu",
+                        "Barumsaa Hibuat", "Abboota Bara Seeraa Laphee",
+                        "Abboota Bara Seeraa Ooritii", "Raajota Gurguddoo",
+                        "Raajota Xixiqqoo"};
 
-            ArrayList<String> listItem = new ArrayList<>(Arrays.asList(item));
+                ArrayList<String> listItem = new ArrayList<>(Arrays.asList(item));
 
-            ListView listView = view.findViewById(R.id.listView_homePage);
-            ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1, listItem);
-            listView.setAdapter(adapter);
-            listView.setOnItemClickListener((adapterView, view1, position, length) -> {
-                if (position == 0) {
-                    startActivity(new Intent(getActivity(), GalataMaariyaam.class));
-                }
-                if (position == 1) {
-                    startActivity(new Intent(getActivity(), GalataGooftaaActivity.class));
-                }
+                ListView listView = view.findViewById(R.id.listView_homePage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1, listItem);
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener((adapterView, view1, position, length) -> {
+                    if (position == 0) {
+                        startActivity(new Intent(getActivity(), GalataMaariyaam.class));
+                    }
+                    if (position == 1) {
+                        startActivity(new Intent(getActivity(), GalataGooftaaActivity.class));
+                    }
 
-                if (position == 2) {
-                    startActivity(new Intent(getActivity(), LixoonniiActivity.class));
-                }
+                    if (position == 2) {
+                        startActivity(new Intent(getActivity(), LixoonniiActivity.class));
+                    }
 
-                if (position == 3) {
-                    startActivity(new Intent(getActivity(), MalkaaActivity.class));
-                }
+                    if (position == 3) {
+                        startActivity(new Intent(getActivity(), MalkaaActivity.class));
+                    }
 
-                if (position == 4) {
-                    startActivity(new Intent(getActivity(), WaadaaActivity.class));
-                }
+                    if (position == 4) {
+                        startActivity(new Intent(getActivity(), WaadaaActivity.class));
+                    }
 
-                if (position == 5) {
-                    startActivity(new Intent(getActivity(), KadhannaaBarbaachisoActivity.class));
-                }
+                    if (position == 5) {
+                        startActivity(new Intent(getActivity(), KadhannaaBarbaachisoActivity.class));
+                    }
 
-                if (position == 6) {
-                    startActivity(new Intent(getActivity(), FaaruuDaawitActivity.class));
-                }
+                    if (position == 6) {
+                        startActivity(new Intent(getActivity(), FaaruuDaawitActivity.class));
+                    }
 
-                if (position == 7) {
-                    startActivity(new Intent(getActivity(), DirsaaneActivity.class));
-                }
+                    if (position == 7) {
+                        startActivity(new Intent(getActivity(), DirsaaneActivity.class));
+                    }
 
-                if (position == 8) {
-                    startActivity(new Intent(getActivity(), ErgamootaActivity.class));
-                }
+                    if (position == 8) {
+                        startActivity(new Intent(getActivity(), ErgamootaActivity.class));
+                    }
 
-                if (position == 9) {
-                    startActivity(new Intent(getActivity(), HibuatActivity.class));
-                }
+                    if (position == 9) {
+                        startActivity(new Intent(getActivity(), HibuatActivity.class));
+                    }
 
-                if (position == 10) {
-                    startActivity(new Intent(getActivity(), SeeraLapheeActivity.class));
-                }
+                    if (position == 10) {
+                        startActivity(new Intent(getActivity(), SeeraLapheeActivity.class));
+                    }
 
-                if (position == 11) {
-                    startActivity(new Intent(getActivity(), SeeraaOoritiiActivity.class));
-                }
+                    if (position == 11) {
+                        startActivity(new Intent(getActivity(), SeeraaOoritiiActivity.class));
+                    }
 
-                if (position == 12) {
-                    startActivity(new Intent(getActivity(), RaajotaGurgudooActivity.class));
-                }
-                if (position == 13) {
-                    startActivity(new Intent(getActivity(), RaajotaXixiqqooActivity.class));
-                }
-            });
+                    if (position == 12) {
+                        startActivity(new Intent(getActivity(), RaajotaGurgudooActivity.class));
+                    }
+                    if (position == 13) {
+                        startActivity(new Intent(getActivity(), RaajotaXixiqqooActivity.class));
+                    }
+                });
+            }
         }
         return view;
     }
